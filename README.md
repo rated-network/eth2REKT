@@ -41,7 +41,7 @@ n days, no slashing
 
 The taxonomy here is inspired by [glassnode.com's](https://insights.glassnode.com/bitcoin-supply-distribution/) work on BTC address taxonomy and is a work in progress. The following conventions apply on the respective tags:
 |Tag        |eth_deposit_min   |eth_deposit_max   |
-|-----------|------------------|------------------|
+|:----------|:-----------------|:-----------------|
 | leviathan | Top-10 depositor | Top-10 depositor |
 | whale     | 20,000           | 999,999          |
 | shark     | 4,000            | 19,999           |
@@ -54,7 +54,7 @@ The taxonomy here is inspired by [glassnode.com's](https://insights.glassnode.co
 
 Every time a validator slashes another, eth2REKT adds a `+1` on the lifetime count of slashes executed to the eth1 deposit address associated with said validtor. The following naming conventions apply to the different classes of lifetime slashes executed:
 |Slashings |Tag          |
-|----------|-------------|
+|:---------|:------------|
 |1-5       |Noob Saibot  |
 |6-10      |Reptile      |
 |11-15     |Sub Zero     |
@@ -67,7 +67,7 @@ Every time a validator slashes another, eth2REKT adds a `+1` on the lifetime cou
 
 When an operator (identified by their eth1 deposit addrress) gets slashed multiple times, the `slash_streak` counter rises. The following formatting conventions apply for a rising `slash_streak` count:
 |Slash streak  |Tag                |Emojis                        |
-|--------------|-------------------|------------------------------|
+|:-------------|:------------------|:-----------------------------|
 | 1            | Random one-liner  | Random emoji                 |
 | 2            | Toasty!           | 🔥🔥                          |
 | 3            | Finish him!       | 🩸🩸🩸                   |
