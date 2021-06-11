@@ -47,7 +47,7 @@ The taxonomy here is inspired by [glassnode.com's](https://insights.glassnode.co
 | shark     | 4,000            | 19,999           |
 | swordfish | 1,600            | 3,999            |
 | octopus   | 320              | 1,599            |
-| fish      | 64               | 319              |
+| koi       | 64               | 319              |
 | shrimp    | 32               | 32               |
 
 ## Slasher predigree naming conventions
